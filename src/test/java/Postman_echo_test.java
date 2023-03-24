@@ -14,7 +14,7 @@ public class Postman_echo_test {
                 .post("/post")
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("Privet"))
+                .body("data", equalTo("Hello"))
         ;
     }
 }
